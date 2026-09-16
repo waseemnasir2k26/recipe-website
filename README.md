@@ -8,6 +8,10 @@ Full-featured recipe sales platform with digital PDF downloads, subscription mod
 
 ---
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ## Features
 
 - **18 Curated Recipes** — Full recipe cards with ingredients, instructions, prep time, nutrition
