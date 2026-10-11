@@ -10,7 +10,7 @@ Full-featured recipe sales platform with digital PDF downloads, subscription mod
 
 ## Status
 
-Last reviewed: September 2026 · release v2026.09
+Last reviewed: October 2026 · release v2026.10
 
 ## Features
 
@@ -60,3 +60,11 @@ Open [http://localhost:5173](http://localhost:5173).
 ---
 
 **Built by [Skynet Labs](https://www.skynetjoe.com)** — AI-powered websites & automation for businesses ready to scale.
+
+## Work with SkynetLabs
+
+Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=recipe-website) at SkynetLabs — n8n + AI automation for small businesses.
+
+- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
+- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
+- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation
