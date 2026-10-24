@@ -1,70 +1,32 @@
-# Recipe Website
+# recipe-website
 
-**Premium Digital Recipe E-Commerce Platform**
+Front-end demo of a digital recipe store: browse recipes, add them to a cart, buy bundles or a monthly subscription, and see an admin view. Payments are simulated; no real checkout is connected.
 
-Full-featured recipe sales platform with digital PDF downloads, subscription model, bundle builder, and admin analytics dashboard.
+**Live demo:** https://recipe-website-sand-theta.vercel.app
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-recipe--website.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://recipe-website-sand-theta.vercel.app)
+## What is in the demo
 
----
+- Shop with a recipe catalog (data in `src/data/recipes.js`) and a recipe detail page.
+- Bundles page and a $9.99/month subscription page.
+- Cart drawer, checkout page with card and PayPal options, order confirmation, downloads page and login.
+- Admin page with order and revenue views (demo data).
 
-## Status
+Routes: `/`, `/shop`, `/recipe/:id`, `/bundles`, `/subscription`, `/checkout`, `/order-confirmation`, `/downloads`, `/login`, `/admin`.
 
-Last reviewed: October 2026 · release v2026.10
+## Stack
 
-## Features
+React 19, Vite, Tailwind CSS 4, React Router 7. Deployed on Vercel.
 
-- **18 Curated Recipes** — Full recipe cards with ingredients, instructions, prep time, nutrition
-- **Bundle Builder** — "Build Your Own" custom recipe packs
-- **$9.99 Subscription** — Monthly access to the full recipe library
-- **Stripe + PayPal Checkout** — Dual payment gateway integration
-- **Admin Dashboard** — Revenue analytics, order tracking, user management
-- **10 Pages** — Home, Shop, Recipe Detail, Cart, Checkout, Account, Admin, FAQ, About, Contact
-- **Mobile-Responsive** — Works on all screen sizes
-- **SEO-Optimized** — Structured data, meta tags, OG images
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Framework | React 18 + Vite 5 |
-| Styling | Tailwind CSS 3 |
-| Payments | Stripe + PayPal (ready) |
-| Animations | Framer Motion |
-| Deployment | Vercel |
-
-## Pages
-
-| Page | Description |
-|------|-------------|
-| `/` | Hero, featured recipes, testimonials, CTA |
-| `/shop` | Full recipe catalog with filters |
-| `/recipe/:id` | Individual recipe with purchase button |
-| `/bundles` | Pre-made bundles + Build Your Own |
-| `/cart` | Shopping cart with promo codes |
-| `/checkout` | Stripe/PayPal payment flow |
-| `/account` | User profile, order history, downloads |
-| `/admin` | Analytics dashboard, product management |
-| `/faq` | Frequently asked questions |
-| `/about` | Brand story + team |
-
-## Getting Started
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+## Limits
 
----
+- Checkout waits a second and then confirms. There is no Stripe or PayPal SDK in the code; wiring real payments, accounts and file delivery is separate work.
+- Recipes, prices and testimonials are sample content.
 
-**Built by [Skynet Labs](https://www.skynetjoe.com)** — AI-powered websites & automation for businesses ready to scale.
-
-## Work with SkynetLabs
-
-Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=recipe-website) at SkynetLabs — n8n + AI automation for small businesses.
-
-- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
-- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
-- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation
+Demo built by SkynetLabs.
